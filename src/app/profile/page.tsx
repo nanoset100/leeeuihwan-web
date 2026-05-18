@@ -20,23 +20,8 @@ export default function ProfilePage() {
                     </p>
                 </div>
 
-                {/* 학력 사항 */}
-                <div className="p-6 pb-4">
-                    <h2 className="text-[#1B3A6B] font-black text-lg flex items-center gap-2 mb-4 border-b pb-2">
-                        <span className="text-2xl">🎓</span> 학력 사항
-                    </h2>
-                    <ul className="space-y-3 pl-2">
-                        {CANDIDATE_PROFILE.education.map((item: { title: string }, idx: number) => (
-                            <li key={idx} className="flex items-start gap-3">
-                                <span className="mt-1.5 w-2 h-2 rounded-full bg-[#1B3A6B] flex-shrink-0" />
-                                <span className="text-gray-800 font-medium leading-snug">{item.title}</span>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-
                 {/* 경력 사항 */}
-                <div className="p-6 pt-2">
+                <div className="p-6 pt-6">
                     <h2 className="text-[#1B3A6B] font-black text-lg flex items-center gap-2 mb-4 border-b pb-2">
                         <span className="text-2xl">📋</span> 경력 사항
                     </h2>
