@@ -1,0 +1,41 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-05-03T04:44:07.227Z",
+  "activeFeatures": [
+    "sinanjuso-web"
+  ],
+  "primaryFeature": "sinanjuso-web",
+  "features": {
+    "sinanjuso-web": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-05-03T04:44:07.226Z",
+        "lastUpdated": "2026-05-03T04:44:07.226Z"
+      },
+      "lastFile": "M:\\MyProject777\\sinanjuso-web\\src\\lib\\static-data.ts"
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-04-29T10:55:13.737Z",
+    "onboardingCompleted": false,
+    "lastActivity": "2026-05-03T04:44:07.227Z"
+  },
+  "history": [
+    {
+      "timestamp": "2026-05-03T04:44:07.226Z",
+      "feature": "sinanjuso-web",
+      "phase": "do",
+      "action": "updated"
+    }
+  ]
+}
