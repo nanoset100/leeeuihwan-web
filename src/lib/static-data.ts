@@ -35,8 +35,12 @@ export const CANDIDATE_PROFILE = {
   ],
   snsLinks: [
     { label: '전화', emoji: '📞', bgColor: '#E3F2FD', url: 'tel:01036317754' },
+    { label: '유튜브', emoji: '▶️', bgColor: '#FFEBEE', url: 'https://www.youtube.com/@이의환과신안사랑' },
     { label: '카카오톡', emoji: '💬', bgColor: '#FFF9C4', url: 'https://pf.kakao.com/_placeholder' },
   ],
+  siteUrl: 'https://leeeuihwan-web-11py.vercel.app',
+  youtubeChannel: 'https://www.youtube.com/@이의환과신안사랑',
+  youtubeShorts: 'https://www.youtube.com/@이의환과신안사랑/shorts',
 };
 
 // ────────────────────────────────────────────────────────────

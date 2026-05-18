@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card } from '@/components/ui/card';
-import { CAMP_CONTACT } from '@/lib/static-data';
+import { CAMP_CONTACT, CANDIDATE_PROFILE } from '@/lib/static-data';
 
 export default function ContactPage() {
     const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
@@ -51,6 +51,7 @@ export default function ContactPage() {
     const getIcon = (label: string) => {
         if (label === '전화') return '📞';
         if (label === '이메일') return '✉️';
+        if (label === '유튜브') return '▶️';
         return '💬';
     };
 
@@ -77,6 +78,26 @@ export default function ContactPage() {
                             <div className="text-sm font-bold text-[#1B3A6B]">{contact.value}</div>
                         </div>
                     ))}
+                </div>
+
+                {/* 유튜브 채널 바로가기 */}
+                <div className="mb-6">
+                    <a
+                        href={CANDIDATE_PROFILE.youtubeChannel}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-between gap-4 bg-red-50 border border-red-200 rounded-2xl p-5 hover:bg-red-100 transition-all group"
+                    >
+                        <div className="flex items-center gap-4">
+                            <div className="w-12 h-12 bg-red-600 rounded-xl flex items-center justify-center text-white text-xl shadow">▶</div>
+                            <div>
+                                <div className="text-xs font-black text-red-400 uppercase tracking-wider mb-0.5">유튜브 채널</div>
+                                <div className="text-[#1B3A6B] font-black text-sm">이의환과 신안사랑</div>
+                                <div className="text-gray-400 text-xs font-medium">@이의환과신안사랑</div>
+                            </div>
+                        </div>
+                        <span className="text-red-400 font-black text-lg group-hover:translate-x-1 transition-transform">→</span>
+                    </a>
                 </div>
 
                 <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 mb-12 flex gap-4">
