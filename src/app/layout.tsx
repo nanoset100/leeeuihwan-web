@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'google-play-app': 'app-id=com.leeeuihwan.sinangoon',
   },
   openGraph: {
-    title: '이의환과 신안사랑: 새 술은 새 부대에!',
+    title: '읍·면민을 위한, 진짜 일꾼 이의환',
     description: '신안군의원 예비후보 이의환 웹사이트',
     url: 'https://leeeuihwan.kr',
     siteName: '이의환과 신안사랑',
