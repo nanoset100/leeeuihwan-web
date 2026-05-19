@@ -89,7 +89,7 @@ export default function LandingPage() {
 
             {/* 전체 쇼츠 보기 — 큰 버튼 */}
             <a
-              href="https://www.youtube.com/@이의환과신안사랑/shorts"
+              href="https://youtube.com/shorts/qsw6-8UChPc"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full flex items-center justify-between gap-3 bg-red-600 hover:bg-red-700 active:scale-95 text-white font-black px-6 py-5 rounded-2xl text-base transition-all shadow-lg shadow-red-900/40"

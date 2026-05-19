@@ -49,7 +49,7 @@ export const CANDIDATE_PROFILE = {
   ],
   siteUrl: 'https://leeeuihwan-web-11py.vercel.app',
   youtubeChannel: 'https://www.youtube.com/@이의환과신안사랑',
-  youtubeShorts: 'https://www.youtube.com/@이의환과신안사랑/shorts',
+  youtubeShorts: 'https://youtube.com/shorts/qsw6-8UChPc',
 };
 
 // ────────────────────────────────────────────────────────────
