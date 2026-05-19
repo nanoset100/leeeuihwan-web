@@ -39,20 +39,19 @@ export default function OGImage() {
           </span>
         </div>
 
+        {/* 이름 위 */}
+        <div style={{ fontSize: '34px', fontWeight: 700, color: '#93C5FD', marginBottom: '20px', letterSpacing: '0.02em' }}>
+          함께여는 변화의 시작!
+        </div>
+
         {/* 이름 */}
-        <div style={{ fontSize: '100px', fontWeight: 900, color: 'white', letterSpacing: '-0.02em', lineHeight: 1 }}>
+        <div style={{ fontSize: '110px', fontWeight: 900, color: 'white', letterSpacing: '-0.02em', lineHeight: 1 }}>
           이의환
         </div>
 
-        {/* 구분선 */}
-        <div style={{ width: '80px', height: '5px', background: '#E8941A', borderRadius: '99px', margin: '28px 0' }} />
-
-        {/* 슬로건 */}
-        <div style={{ fontSize: '36px', fontWeight: 700, color: 'white', textAlign: 'center', lineHeight: 1.4 }}>
-          소득 늘리고, 일자리 만들고,
-        </div>
-        <div style={{ fontSize: '36px', fontWeight: 700, color: 'white', marginTop: '6px' }}>
-          약속 지키는 군수
+        {/* 이름 아래 */}
+        <div style={{ fontSize: '34px', fontWeight: 700, color: '#E8941A', marginTop: '24px', letterSpacing: '0.02em' }}>
+          지도·증도·임자의 희망, 이의환
         </div>
 
         {/* 하단 URL */}
